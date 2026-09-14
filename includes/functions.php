@@ -46,3 +46,9 @@ function statusLabel(string $status): string
         'done' => 'Done',
     ][$status] ?? $status;
 }
+
+function obtainDate(bool $withTime = false): string
+{
+    $format = $withTime ? 'l, jS \of F Y' : 'Y-m-d';
+    return (new DateTimeImmutable('now', new DateTimeZone('Europe/Madrid')))->format($format);
+}

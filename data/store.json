@@ -13,6 +13,13 @@
             "email": "maria@example.test",
             "password": "$2y$10$HX6t3YTgV5fbSu2OvDkcmOMRjFa\/sMb7zUWOGpVRC\/FdzuzBPzWry",
             "role": "teacher"
+        },
+        {
+            "id": 3,
+            "name": "guillem",
+            "email": "guillemmengual@gmail.com",
+            "password": "$2y$10$\/he1uFrEEPfvpiV1grkBquZRMU96DEdUn9UYV0Mg\/D48d13RKC8RK",
+            "role": "student"
         }
     ],
     "sprints": [
