@@ -15,6 +15,7 @@
             <a class="text-white" href="board.php">Tauler</a>
             <a class="text-white" href="teams.php">Equips</a>
             <a class="text-white" href="profile.php">Perfil</a>
+            <a class="text-white" href="sprints.php">Sprints</a>
             <form method="post" action="logout.php" class="m-0">
                 <input type="hidden" name="csrf" value="<?= h(csrfToken()) ?>">
                 <button class="btn btn-outline-light btn-sm">Eixir</button>

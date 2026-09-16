@@ -30,7 +30,23 @@
             "start_date": "2026-09-01",
             "end_date": "2026-09-14",
             "status": "active"
-        }
+        },
+        {
+            "id": 2,
+            "name": "Sprint 2",
+            "goal": "Fer proves de la primera versió del tauler",
+            "start_date": "2026-09-15",
+            "end_date": "2026-10-20",
+            "status": "active"
+        },
+        {
+            "id": 3,
+            "name": "Sprint 3",
+            "goal": "Crear el paginat i afegir la funcionalitat de comentaris",
+            "start_date": "2026-10-21",
+            "end_date": "2026-11-20",
+            "status": "active"
+        }        
     ],
     "teams": [
         {
