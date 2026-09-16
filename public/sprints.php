@@ -19,6 +19,10 @@ require __DIR__ . '/../includes/header.php';
     </div>
 </div>
 
+<div class="d-flex justify-content-between align-items-center mb-4">
+<a class="btn btn-primary" href="sprints-create.php">+ Nou sprint</a>
+</div>
+
 <div class="row g-3">
     <?php foreach ($data['sprints'] as $sprint): ?>
         <div class="col-md-6">
